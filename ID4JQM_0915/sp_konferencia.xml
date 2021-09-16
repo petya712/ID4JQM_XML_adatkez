@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konferenciak>
+		<konferencia id="txn_nxn_2jb" tipus="kulteri">
+			<cim id="nzk_4xm_2jb" nev="Egyetemi_sportnap"/>
+			<datum id="u5q_4xm_2jb" datuma="2021.09.22."/>
+			<helyszin id="trv_4xm_2jb" nev="Miskolci_egyetem"/>
+			<eloado id="a3f_4xm_2jb">
+				<neve id="d3d_4xm_2jb" nev="Kovacs_Istvan"/>
+				<adoszam id="dqg_4xm_2jb" szam="123456_123456_123456"/>
+				<lakcim id="hhg_4xm_2jb" nev="3355_Miskolc_Kakukk_12"/>
+			</eloado>
+			<hallgatok>
+				<hallgato id="ghg_xnx_2jb">
+					<neve id="jhj_xnx_2jb" nev="Szabo_Peter"/>
+					<lakcim id="djk_xnx_2jb" nev="3333_Miskolc_Nyárfa_91"/>
+				</hallgato>
+			</hallgatok>
+		</konferencia>
+</konferenciak>
