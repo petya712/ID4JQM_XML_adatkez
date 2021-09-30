@@ -1,0 +1,35 @@
+<!DOCTYPE orarend [
+        <!ELEMENT orarend (ora)+>
+
+        <!ELEMENT ora (targy)>
+        <!ATTLIST ora
+                id CDATA #REQUIRED>
+
+        <!ELEMENT targy (ideje,helyszin,oktato)>
+        <!ATTLIST targy
+                id CDATA #REQUIRED
+                nev CDATA #REQUIRED
+                tipus CDATA #REQUIRED>
+
+        <!ELEMENT ideje (nap|idopont)>
+        <!ATTLIST ideje
+                id CDATA #REQUIRED>
+
+        <!ELEMENT nap EMPTY>
+        <!ATTLIST nap
+                nev CDATA #REQUIRED>
+
+        <!ELEMENT idopont EMPTY>
+        <!ATTLIST idopont
+                nev CDATA #REQUIRED>
+
+        <!ELEMENT helyszin EMPTY>
+        <!ATTLIST helyszin
+                id CDATA #REQUIRED
+                nev CDATA #REQUIRED>
+
+        <!ELEMENT oktato EMPTY>
+        <!ATTLIST oktato
+                id CDATA #REQUIRED
+                nev CDATA #REQUIRED>
+        ]>
