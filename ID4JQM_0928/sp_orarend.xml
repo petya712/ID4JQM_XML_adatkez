@@ -1,125 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE orarend SYSTEM "sp_orarend.dtd">
 <orarend>
     <ora id="h1">
         <targy tipus="elmelet" id="h1t" nev="Szamitogepes_halozatok_uzemeltetese">
-			<ideje id="h1ti">
-				<nap nev="Hetfo"/>
-				<idopont ido="8-10"/>
-			</ideje>
-			<helyszin id="h1th" nev="Inf/202"/>
-			<oktato id="h1to" nev="Dr._Kovacs_Szilveszter"/>
-		</targy>
+            <ideje id="h1ti">
+                <nap nev="Hetfo"/>
+                <idopont ido="8-10"/>
+            </ideje>
+            <helyszin id="h1th" nev="Inf/202"/>
+            <oktato id="h1to" nev="Dr._Kovacs_Szilveszter"/>
+        </targy>
     </ora>
-	
-	<ora id="h2">
+
+    <ora id="h2">
         <targy tipus="gyakorlat" id="h2t" nev="Szamitogepes_halozatok_uzemeltetese">
-			<ideje id="h2ti">
-				<nap nev="Hetfo"/>
-				<idopont ido="10-12"/>
-			</ideje>
-			<helyszin id="h2th" nev="Inf/202"/>
-			<oktato id="h2to" nev="Dr._Kovacs_Szilveszter"/>
-		</targy>
+            <ideje id="h2ti">
+                <nap nev="Hetfo"/>
+                <idopont ido="10-12"/>
+            </ideje>
+            <helyszin id="h2th" nev="Inf/202"/>
+            <oktato id="h2to" nev="Dr._Kovacs_Szilveszter"/>
+        </targy>
     </ora>
-	
-	<ora id="h3">
+
+    <ora id="h3">
         <targy tipus="elmelet" id="h3t" nev="Fizika_II.">
-			<ideje id="h3ti">
-				<nap nev="Hetfo"/>
-				<idopont ido="12-14"/>
-			</ideje>
-			<helyszin id="h3th" nev="A1/218"/>
-			<oktato id="h3to" nev="Pszota_Gabor"/>
-		</targy>
+            <ideje id="h3ti">
+                <nap nev="Hetfo"/>
+                <idopont ido="12-14"/>
+            </ideje>
+            <helyszin id="h3th" nev="A1/218"/>
+            <oktato id="h3to" nev="Pszota_Gabor"/>
+        </targy>
     </ora>
-	
-	<ora id="h4">
+
+    <ora id="h4">
         <targy tipus="gyakorlat" id="h4t" nev="Korszeru_informacios_technologiak">
-			<ideje id="h4ti">
-				<nap nev="Hetfo"/>
-				<idopont ido="14-16"/>
-			</ideje>
-			<helyszin id="h4th" nev="Inf/202"/>
-			<oktato id="h4to" nev="Soos_Robert"/>
-		</targy>
+            <ideje id="h4ti">
+                <nap nev="Hetfo"/>
+                <idopont ido="14-16"/>
+            </ideje>
+            <helyszin id="h4th" nev="Inf/202"/>
+            <oktato id="h4to" nev="Soos_Robert"/>
+        </targy>
     </ora>
-	
-	<ora id="h5">
+
+    <ora id="h5">
         <targy tipus="elmelet" id="h5t" nev="Korszeru_informacios_technologiak">
-			<ideje id="h5ti">
-				<nap nev="Hetfo"/>
-				<idopont ido="16-18"/>
-			</ideje>
-			<helyszin id="h5th" nev="A1/220"/>
-			<oktato id="h5to" nev="Arvai_Laszlo"/>
-		</targy>
+            <ideje id="h5ti">
+                <nap nev="Hetfo"/>
+                <idopont ido="16-18"/>
+            </ideje>
+            <helyszin id="h5th" nev="A1/220"/>
+            <oktato id="h5to" nev="Arvai_Laszlo"/>
+        </targy>
     </ora>
-	
-	<ora id="k1">
+
+    <ora id="k1">
         <targy tipus="elmelet" id="h5t" nev="Mobil_programozas_alapjai">
-			<ideje id="k1ti">
-				<nap nev="Kedd"/>
-				<idopont ido="8-10"/>
-			</ideje>
-			<helyszin id="k1th" nev="A1/310"/>
-			<oktato id="k1to" nev="Agardi_Anita"/>
-		</targy>
+            <ideje id="k1ti">
+                <nap nev="Kedd"/>
+                <idopont ido="8-10"/>
+            </ideje>
+            <helyszin id="k1th" nev="A1/310"/>
+            <oktato id="k1to" nev="Agardi_Anita"/>
+        </targy>
     </ora>
-	
-	<ora id="k2">
+
+    <ora id="k2">
         <targy tipus="gyakorlat" id="k2t" nev="Valoszinusegszamitas">
-			<ideje id="k2ti">
-				<nap nev="Kedd"/>
-				<idopont ido="10-12"/>
-			</ideje>
-			<helyszin id="k2th" nev="A1/309"/>
-			<oktato id="k2to" nev="Dr._Glavosits_Tamas"/>
-		</targy>
+            <ideje id="k2ti">
+                <nap nev="Kedd"/>
+                <idopont ido="10-12"/>
+            </ideje>
+            <helyszin id="k2th" nev="A1/309"/>
+            <oktato id="k2to" nev="Dr._Glavosits_Tamas"/>
+        </targy>
     </ora>
-	
-	<ora id="k3">
+
+    <ora id="k3">
         <targy tipus="elmelet" id="k3t" nev="XML_adatkezeles">
-			<ideje id="k3ti">
-				<nap nev="Kedd"/>
-				<idopont ido="12-14"/>
-			</ideje>
-			<helyszin id="k3th" nev="I.eloado"/>
-			<oktato id="k3to" nev="Bednarik_Laszlo"/>
-		</targy>
+            <ideje id="k3ti">
+                <nap nev="Kedd"/>
+                <idopont ido="12-14"/>
+            </ideje>
+            <helyszin id="k3th" nev="I.eloado"/>
+            <oktato id="k3to" nev="Bednarik_Laszlo"/>
+        </targy>
     </ora>
-	
-	<ora id="k4">
+
+    <ora id="k4">
         <targy tipus="gyakorlat" id="k4t" nev="Mobil_programozas_alapjai">
-			<ideje id="k4ti">
-				<nap nev="Kedd"/>
-				<idopont ido="14-16"/>
-			</ideje>
-			<helyszin id="k4th" nev="In/101"/>
-			<oktato id="k4to" nev="Kunne_Tamas_Judit"/>
-		</targy>
+            <ideje id="k4ti">
+                <nap nev="Kedd"/>
+                <idopont ido="14-16"/>
+            </ideje>
+            <helyszin id="k4th" nev="In/101"/>
+            <oktato id="k4to" nev="Kunne_Tamas_Judit"/>
+        </targy>
     </ora>
-	
-	<ora id="sz2">
+
+    <ora id="sz2">
         <targy tipus="gyakorlat" id="sz2t" nev="XML_adatkezeles">
-			<ideje id="sz2ti">
-				<nap nev="Szerda"/>
-				<idopont ido="10-12"/>
-			</ideje>
-			<helyszin id="sz2th" nev="In/202"/>
-			<oktato id="sz2to" nev="Bednarik_Laszlo"/>
-		</targy>
+            <ideje id="sz2ti">
+                <nap nev="Szerda"/>
+                <idopont ido="10-12"/>
+            </ideje>
+            <helyszin id="sz2th" nev="In/202"/>
+            <oktato id="sz2to" nev="Bednarik_Laszlo"/>
+        </targy>
     </ora>
-	
-	<ora id="sz4">
+
+    <ora id="sz4">
         <targy tipus="gyakorlat" id="sz4t" nev="Fizika_II">
-			<ideje id="sz4ti">
-				<nap nev="Szerda"/>
-				<idopont ido="14-16"/>
-			</ideje>
-			<helyszin id="sz4th" nev="A1/11"/>
-			<oktato id="sz4to" nev="Nagy_Adam"/>
-		</targy>
+            <ideje id="sz4ti">
+                <nap nev="Szerda"/>
+                <idopont ido="14-16"/>
+            </ideje>
+            <helyszin id="sz4th" nev="A1/11"/>
+            <oktato id="sz4to" nev="Nagy_Adam"/>
+        </targy>
     </ora>
-   
+
 </orarend>
