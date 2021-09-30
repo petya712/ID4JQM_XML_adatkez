@@ -4,26 +4,26 @@
 <konyvek>
 
     <konyv id="101">
-        <cim nev="XML_Alapok"/>
-        <pubEv szam="2005"/>
-        <kiado nev="Alexandra"/>
-        <szerzo nev="Horvath_Janos"/>
+        <cim>"XML_Alapok"</cim>
+        <pubEv>"2005"</pubEv>
+        <kiado>"Alexandra"</kiado>
+        <szerzo>"Horvath_Janos"</szerzo>
         <abstract></abstract>
     </konyv>
 
     <konyv id="102">
-        <cim nev="Mobil_Programozasi_Alapok"/>
-        <pubEv szam="2002"/>
-        <kiado nev="Alexandra"/>
-        <szerzo nev="Horvath_Bela"/>
+        <cim>"Mobil_Programozasi_Alapok"</cim>
+        <pubEv>"2002"</pubEv>
+        <kiado>"Alexandra"</kiado>
+        <szerzo>"Horvath_Bela"</szerzo>
         <abstract></abstract>
     </konyv>
 
     <konyv id="103">
-        <cim nev="Operacios_rendszerek_szerkezete"/>
-        <pubEv szam="1995"/>
-        <kiado nev="Mozaik"/>
-        <szerzo nev="Vadasz_Denes"/>
+        <cim>"Operacios_rendszerek_szerkezete"</cim>
+        <pubEv>"1995"</pubEv>
+        <kiado>"Mozaik"</kiado>
+        <szerzo>"Vadasz_Denes"</szerzo>
         <abstract></abstract>
     </konyv>
 
