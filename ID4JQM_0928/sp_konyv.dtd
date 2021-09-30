@@ -1,9 +1,11 @@
-<!DOCTYPE konyvek [
-        <!ELEMENT konyvek (konyv+)>
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT konyvek (konyv)+>
         <!ELEMENT konyv (cim,pubEv,kiado,szerzo,abstract)>
+        <!ATTLIST konyv
+                id CDATA #REQUIRED>
         <!ELEMENT cim (#PCDATA)>
         <!ELEMENT pubEv (#PCDATA)>
         <!ELEMENT kiado (#PCDATA)>
         <!ELEMENT szerzo (#PCDATA)>
         <!ELEMENT abstract (#PCDATA)>
-        ]>
