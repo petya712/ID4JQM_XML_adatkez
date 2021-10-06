@@ -1,5 +1,5 @@
 <!DOCTYPE erto [
-        <!ELEMENT erto (A*, B*, C* A_B*)>
+        <!ELEMENT erto (A*, B*, C*, A_B*)>
         <!ELEMENT A (Ab*, Ac)>
         <!ATTLIST A Aa ID #REQUIRED>
         <!ELEMENT Ab (Abx, Aby)>
