@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orarend SYSTEM "sp_orarend.dtd">
+<orarend>
+    <ora id="h1">
+        <targy tipus="elmelet" id="h1t">
+        	<nev>Szamitogepes_halozatok_uzemeltetese</nev>
+            <ideje id="h1ti">
+                <nap>Hetfo</nap>
+                <kezdes>8:00</kezdes>
+                <vege>10:00</vege>
+            </ideje>
+            <helyszin>Inf/202</helyszin>
+            <oktato>Dr._Kovacs_Szilveszter</oktato>
+        </targy>
+    </ora>
+    
+    <ora id="h2">
+        <targy tipus="gyakorlat" id="h2t">
+        	<nev>Szamitogepes_halozatok_uzemeltetese</nev>
+            <ideje id="h2ti">
+                <nap>Hetfo</nap>
+                <kezdes>10:00</kezdes>
+                <vege>12:00</vege>
+            </ideje>
+            <helyszin>Inf/202</helyszin>
+            <oktato>Dr._Kovacs_Szilveszter</oktato>
+        </targy>
+    </ora>
+
+    <ora id="h3">
+        <targy tipus="elmelet" id="h3t">
+        	<nev>Fizika_II</nev>
+            <ideje id="h3ti">
+                <nap>Hetfo</nap>
+                <kezdes>12:00</kezdes>
+                <vege>14:00</vege>
+            </ideje>
+            <helyszin>A1/218</helyszin>
+            <oktato>Pszota_Gabor</oktato>
+        </targy>
+    </ora>
+
+    <ora id="h4">
+        <targy tipus="gyakorlat" id="h4t">
+        	<nev>Korszeru_informacios_technologiak</nev>
+            <ideje id="h4ti">
+                <nap>Hetfo</nap>
+                <kezdes>14:00</kezdes>
+                <vege>16:00</vege>
+            </ideje>
+            <helyszin>Inf/202</helyszin>
+            <oktato>Soos_Robert</oktato>
+        </targy>
+    </ora>
+
+    <ora id="h5">
+        <targy tipus="elmelet" id="h5t">
+        	<nev>Korszeru_informacios_technologiak</nev>
+            <ideje id="h5ti">
+                <nap>Hetfo</nap>
+                <kezdes>16:00</kezdes>
+                <vege>18:00</vege>
+            </ideje>
+            <helyszin>A1/220</helyszin>
+            <oktato>Arvai_Laszlo</oktato>
+        </targy>
+    </ora>
+
+    <ora id="k1">
+        <targy tipus="elmelet" id="k1t">
+        	<nev>Mobil_programozas_alapjai</nev>
+            <ideje id="k1ti">
+                <nap>Kedd</nap>
+                <kezdes>8:00</kezdes>
+                <vege>10:00</vege>
+            </ideje>
+            <helyszin>In/101</helyszin>
+            <oktato>Agardi_Anita</oktato>
+        </targy>
+    </ora>
+
+    <ora id="k2">
+        <targy tipus="gyakorlat" id="k2t">
+        	<nev>Valszinusegszamitas</nev>
+            <ideje id="k2ti">
+                <nap>Kedd</nap>
+                <kezdes>10:00</kezdes>
+                <vege>12:00</vege>
+            </ideje>
+            <helyszin>A1/309</helyszin>
+            <oktato>Dr._Glavosits_Tamas</oktato>
+        </targy>
+    </ora>
+
+    <ora id="k3">
+        <targy tipus="elmelet" id="k3t">
+        	<nev>XML_adatkezeles</nev>
+            <ideje id="k3ti">
+                <nap>Kedd</nap>
+                <kezdes>12:00</kezdes>
+                <vege>14:00</vege>
+            </ideje>
+            <helyszin>I.eloado</helyszin>
+            <oktato>Bednarik_Laszlo</oktato>
+        </targy>
+    </ora>
+
+    <ora id="k4">
+        <targy tipus="gyakorlat" id="k4t">
+        	<nev>Mobil_programozas_alapjai</nev>
+            <ideje id="k4ti">
+                <nap>Kedd</nap>
+                <kezdes>14:00</kezdes>
+                <vege>16:00</vege>
+            </ideje>
+            <helyszin>In/101</helyszin>
+            <oktato>Kunne_Tamas_Judit</oktato>
+        </targy>
+    </ora>
+
+    <ora id="sz2">
+        <targy tipus="gyakorlat" id="sz2t">
+        	<nev>XML_adatkezeles</nev>
+            <ideje id="sz2ti">
+                <nap>Szerda</nap>
+                <kezdes>10:00</kezdes>
+                <vege>12:00</vege>
+            </ideje>
+            <helyszin>In/202</helyszin>
+            <oktato>Bednarik_Laszlo</oktato>
+        </targy>
+    </ora>
+
+    <ora id="sz4">
+        <targy tipus="gyakorlat" id="sz4t">
+        	<nev>Fizika_II</nev>
+            <ideje id="sz2ti">
+                <nap>Szerda</nap>
+                <kezdes>14:00</kezdes>
+                <vege>16:00</vege>
+            </ideje>
+            <helyszin>In/202</helyszin>
+            <oktato>Nagy_Adam</oktato>
+        </targy>
+    </ora>
+
+</orarend>

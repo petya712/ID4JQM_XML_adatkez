@@ -1,0 +1,28 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT orarend (ora)+>
+<!ATTLIST orarend>
+
+<!ELEMENT ora (targy)>
+<!ATTLIST ora
+  id CDATA #REQUIRED>
+
+<!ELEMENT targy (nev,ideje,helyszin,oktato)>
+<!ATTLIST targy
+  id CDATA #REQUIRED
+  tipus CDATA #REQUIRED>
+  
+ <!ELEMENT nev (#PCDATA)>
+
+<!ELEMENT ideje (nap,kezdes,vege)>
+<!ATTLIST ideje
+  id CDATA #REQUIRED>
+
+<!ELEMENT nap (#PCDATA)>
+<!ELEMENT kezdes (#PCDATA)>
+<!ELEMENT vege (#PCDATA)>
+
+<!ELEMENT helyszin (#PCDATA)>
+
+<!ELEMENT oktato (#PCDATA)>
+

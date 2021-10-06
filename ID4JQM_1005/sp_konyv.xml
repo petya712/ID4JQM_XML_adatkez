@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE konyvek SYSTEM "sp_konyv.dtd">
+
+<konyvek>
+
+    <konyv id="101">
+        <cim>"XML_Alapok"</cim>
+        <pubEv>"2005"</pubEv>
+        <kiado>"Alexandra"</kiado>
+        <szerzo>"Horvath_Janos"</szerzo>
+        <abstract></abstract>
+    </konyv>
+
+    <konyv id="102">
+        <cim>"Mobil_Programozasi_Alapok"</cim>
+        <pubEv>"2002"</pubEv>
+        <kiado>"Alexandra"</kiado>
+        <szerzo>"Horvath_Bela"</szerzo>
+        <abstract></abstract>
+    </konyv>
+
+    <konyv id="103">
+        <cim>"Operacios_rendszerek_szerkezete"</cim>
+        <pubEv>"1995"</pubEv>
+        <kiado>"Mozaik"</kiado>
+        <szerzo>"Vadasz_Denes"</szerzo>
+        <abstract></abstract>
+    </konyv>
+
+</konyvek>
