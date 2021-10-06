@@ -1,6 +1,9 @@
 <?xml encoding="UTF-8"?>
 
-<!ELEMENT konyvek (konyv)+>
+	<!ELEMENT konyvek (konyv)+>
+	<!ATTLIST konyvek
+  		xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  		xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
         <!ELEMENT konyv (cim,pubEv,kiado,szerzo,abstract)>
         <!ATTLIST konyv
                 id CDATA #REQUIRED>
