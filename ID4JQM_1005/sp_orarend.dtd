@@ -1,7 +1,9 @@
 <?xml encoding="UTF-8"?>
 
 <!ELEMENT orarend (ora)+>
-<!ATTLIST orarend>
+<!ATTLIST orarend
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
 
 <!ELEMENT ora (targy)>
 <!ATTLIST ora
@@ -25,4 +27,3 @@
 <!ELEMENT helyszin (#PCDATA)>
 
 <!ELEMENT oktato (#PCDATA)>
-
