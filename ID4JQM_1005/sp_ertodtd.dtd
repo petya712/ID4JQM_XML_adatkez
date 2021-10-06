@@ -1,0 +1,30 @@
+<?xml encoding="UTF-8"?>
+
+        <!ELEMENT model (A*, B*, C*, A_B*)>
+        <!ATTLIST model
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+  
+        <!ELEMENT A (Ab*, Ac)>
+        <!ATTLIST A 
+        	Aa CDATA #REQUIRED>
+        <!ELEMENT Ab (Abx, Aby)>
+        <!ELEMENT Abx (#PCDATA)>
+        <!ELEMENT Aby (#PCDATA)>
+        <!ELEMENT Ac (Acd, Ace)>
+        <!ELEMENT Acd (#PCDATA)>
+        <!ELEMENT Ace (#PCDATA)>
+        <!ELEMENT B (Bb)>
+        <!ATTLIST B
+        	Ba CDATA #REQUIRED>
+        <!ATTLIST A 
+        	Bc CDATA #IMPLIED>
+        <!ELEMENT Bb (Bbx, Bby)>
+        <!ELEMENT Bbx (#PCDATA)>
+        <!ELEMENT Bby (#PCDATA)>
+        <!ELEMENT C (Cb)>
+        <!ATTLIST C 
+        	Ca CDATA #REQUIRED>
+        <!ELEMENT Cb (#PCDATA)>
+        <!ELEMENT A_B (A_Bc)>
+        <!ELEMENT A_Bc (#PCDATA)>

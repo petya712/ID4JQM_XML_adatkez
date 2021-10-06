@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="model">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="A">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ab">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Abx"/>
+                    <xs:element type="xs:string" name="Aby"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Ac">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Acd"/>
+                    <xs:element type="xs:string" name="Ace"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="Aa"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="B">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Bb">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Bbx"/>
+                    <xs:element type="xs:string" name="Bby"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="Ba"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="C">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Cb"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="Ca"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="A_B">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="A_Bc"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

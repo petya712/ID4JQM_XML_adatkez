@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE model SYSTEM "sp_ertodtd.dtd">
+
+<model
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="sp_ertoxsd.xsd">
+
+    <A Aa="a">
+        <Ab>
+            <Abx>x</Abx>
+            <Aby>y</Aby>
+        </Ab>
+        <Ac>
+            <Acd>d</Acd>
+            <Ace>e</Ace>
+        </Ac>
+    </A>
+
+    <B Ba="a">
+        <Bb>
+            <Bbx>x</Bbx>
+            <Bby>y</Bby>
+        </Bb>
+    </B>
+
+    <C Ca="a">
+        <Cb>b</Cb>
+    </C>
+    
+    <A_B>
+        <A_Bc>c</A_Bc>
+    </A_B>
+
+</model>
