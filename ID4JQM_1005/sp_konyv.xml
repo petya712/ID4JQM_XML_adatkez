@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE konyvek SYSTEM "sp_konyv.dtd">
 
-<konyvek>
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="sp_konyv.xsd">
 
     <konyv id="101">
         <cim>"XML_Alapok"</cim>
