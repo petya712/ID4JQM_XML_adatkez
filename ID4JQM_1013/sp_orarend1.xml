@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="sp_orarend1.xsd">
+    <ora id="1_1" tipus="elmelet">
+        <targy>Szamitogep halozatok uzemeltetese</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>Inf/202</helyszin>
+        <oktato>Dr. Kovacs Szilveszter</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="1_2" tipus="gyakorlat">
+        <targy>Szamitogep halozatok uzemeltetese</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszin>Inf/202</helyszin>
+        <oktato>Dr. Kovacs Szilveszter</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="1_3" tipus="gyakorlat">
+        <targy>Korszeru informacios technologiak</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>Inf/202</helyszin>
+        <oktato>Soos Robert</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="1_4" tipus="elmelet">
+        <targy>Korszeru informacios technologiak</targy>
+        <idopont>
+            <nap>Hetfo</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>A1/220</helyszin>
+        <oktato>Dr. Arvai Laszlo</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="2_1" tipus="elmelet">
+        <targy>Mobil Programozas alapok</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>Inf/101</helyszin>
+        <oktato>Agardi Anita</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="2_1-1" tipus="elmelet">
+        <targy>Windows Rendszergazda</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </idopont>
+        <helyszin>Inf/103</helyszin>
+        <oktato>Wagner Gyorgy</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="2_2" tipus="elmelet">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>A2/1</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="2_2-1" tipus="gyakorlat">
+        <targy>Windows Rendszergazda</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszin>Inf/103</helyszin>
+        <oktato>Wagner Gyorgy</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="2_3" tipus="gyakorlat">
+        <targy>Mobil Programozas alapok</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>Inf/101</helyszin>
+        <oktato>Kunne Tamas Judit</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    <ora id="2_3-1" tipus="gyakorlat">
+        <targy>Adatkezeles XML-ben</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </idopont>
+        <helyszin>Inf/202</helyszin>
+        <oktato>Dr. Bednarik Laszlo</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+</orarend>

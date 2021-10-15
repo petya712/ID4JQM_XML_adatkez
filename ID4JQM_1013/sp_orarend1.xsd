@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="orarend" type="orarendType"/>
+  <xs:complexType name="idopontType">
+    <xs:sequence>
+      <xs:element name="nap">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Hetfo"/>
+            <xs:enumeration value="Kedd"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="tol">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="8"/>
+            <xs:enumeration value="10"/>
+            <xs:enumeration value="14"/>
+            <xs:enumeration value="16"/>
+            <xs:enumeration value="12"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ig">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="10"/>
+            <xs:enumeration value="12"/>
+            <xs:enumeration value="16"/>
+            <xs:enumeration value="18"/>
+            <xs:enumeration value="14"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="oraType">
+    <xs:sequence>
+      <xs:element name="targy">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Szamitogep halozatok uzemeltetese"/>
+            <xs:enumeration value="Korszeru informacios technologiak"/>
+            <xs:enumeration value="Mobil Programozas alapok"/>
+            <xs:enumeration value="Windows Rendszergazda"/>
+            <xs:enumeration value="Adatkezeles XML-ben"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="idopontType" name="idopont"/>
+      <xs:element name="helyszin">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Inf/202"/>
+            <xs:enumeration value="A1/220"/>
+            <xs:enumeration value="Inf/101"/>
+            <xs:enumeration value="Inf/103"/>
+            <xs:enumeration value="A2/1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="oktato">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Dr. Kovacs Szilveszter"/>
+            <xs:enumeration value="Soos Robert"/>
+            <xs:enumeration value="Dr. Arvai Laszlo"/>
+            <xs:enumeration value="Agardi Anita"/>
+            <xs:enumeration value="Wagner Gyorgy"/>
+            <xs:enumeration value="Dr. Bednarik Laszlo"/>
+            <xs:enumeration value="Kunne Tamas Judit"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="szak"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="tipus" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="orarendType">
+    <xs:sequence>
+      <xs:element type="oraType" name="ora" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

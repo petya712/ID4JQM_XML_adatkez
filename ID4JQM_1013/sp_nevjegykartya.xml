@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak>
+
+	<nevjegykartya id="1">
+		
+		<nev>Szabo Peter</nev>
+		<ceg>
+			<nev>Valami Ltd</nev>
+			<cim>
+				<iranyitoszam>3535</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Nyarfa</utca>
+				<hazszam>1</hazszam>
+			</cim>
+			<telefonszam>+36205904741</telefonszam>
+			<weblap>www.Tepi.com</weblap>
+		</ceg>
+		<beosztas>Igazgato</beosztas>
+		<telefonszam>+36205904741</telefonszam>
+		<email>petya700@gmail.com</email>
+	
+	</nevjegykartya>
+	
+		<nevjegykartya id="2">
+		
+		<nev>Nagy Laszlo</nev>
+		<ceg>
+			<nev>Laszlo Kft</nev>
+			<cim>
+				<iranyitoszam>3730</iranyitoszam>
+				<varos>Kukutyin</varos>
+				<utca>Hatos</utca>
+				<hazszam>11</hazszam>
+			</cim>
+			<telefonszam>+3980099888</telefonszam>
+			<weblap>www.Laszlokft.com</weblap>
+		</ceg>
+		<beosztas>Igazgato</beosztas>
+		<telefonszam>+3620544545</telefonszam>
+		<email>Laszlo@gmail.com</email>
+	
+	</nevjegykartya>
+
+</nevjegykartyak>
