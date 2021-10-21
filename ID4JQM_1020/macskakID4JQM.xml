@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE macskak SYSTEM "macskakID4JQM.dtd">
+
+<macskak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLockation="macskakID4JQM.xsd">
+	
+	<macska id="101">
+		<nev>"Kokusz"</nev>
+		<kor>5</kor>
+		<fajta>TabbyCat</fajta>
+	</macska>
+	
+	<macska id="102">
+		<nev>"Nutella"</nev>
+		<kor>4</kor>
+		<fajta>BlackCat</fajta>
+	</macska>
+	
+	<macska id="103">
+		<nev>"Huncut"</nev>
+		<kor>3</kor>
+		<fajta>PersianCat</fajta>
+	</macska>
+</macskak>

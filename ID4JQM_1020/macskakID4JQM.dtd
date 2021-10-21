@@ -1,0 +1,10 @@
+<!ELEMENT macskak (macska)+>
+<!ATTLIST macskak
+	xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+	xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+	<!ELEMENT macska (nev,kor,fajta)>
+	<!ATTLIST macska
+		id CDATA #REQUIRED>
+	<!ELEMENT nev (#PCDATA)>
+	<!ELEMENT kor (#PCDATA)>
+	<!ELEMENT fajta (#PCDATA)>
