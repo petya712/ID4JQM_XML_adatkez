@@ -2,7 +2,7 @@
 <!DOCTYPE macskak SYSTEM "macskakID4JQM.dtd">
 
 <macskak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLockation="macskakID4JQM.xsd">
+	xsi:noNamespaceSchemaLocation="macskakID4JQM.xsd">
 	
 	<macska id="101">
 		<nev>"Kokusz"</nev>
