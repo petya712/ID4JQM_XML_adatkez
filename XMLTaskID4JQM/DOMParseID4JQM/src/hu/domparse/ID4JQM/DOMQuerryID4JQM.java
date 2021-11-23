@@ -33,17 +33,33 @@ public class DOMQuerryID4JQM {
 	}
 	
 	public static void LoadQuery(Document doc) throws TransformerException {
-		NodeList nodeList = doc.getElementsByTagName("diak");
+		NodeList nodeList = doc.getElementsByTagName("diak"); // Diákok listázása
+		
+		Element element = null;
+		Node nNode = null;
+		
+		for (int i = 0; i < nodeList.getLength(); i++) {
+			nNode = nodeList.item(i);
+			element = (Element) nNode;
+			String id =  element.getAttribute("id");
+			String osztid =  element.getAttribute("osztalyid");
+			String vnev = element.getElementsByTagName("vezeteknev").item(0).getTextContent();
+			String knev = element.getElementsByTagName("keresztnev").item(0).getTextContent();
+			System.out.println("\n"+(i + 1) + ") ID: "+ id +"\nOsztály ID: "+ osztid +"\nVezetékneve: "+ vnev +"\nKeresztneve: "+ knev + "\n");
+
+		}
+		
 		Scanner in = new Scanner(System.in);
 
-		System.out.println("Adja meg a diák ID-t:");
+		System.out.println("Adja meg a diák ID-t:"); // Diák kiválasztása scanner inputról ID szerint
 		String diakid = in.next();
 		
+		
     	for (int i = 0; i < nodeList.getLength(); i++) {
-    		Node nNode = nodeList.item(i);
-    		Element element = (Element) nNode;
+    		nNode = nodeList.item(i);
+    		element = (Element) nNode;
     		int db = element.getElementsByTagName("vezeteknev").getLength();
-    		if(nNode.getNodeType() == Node.ELEMENT_NODE) {
+    		if(nNode.getNodeType() == Node.ELEMENT_NODE) { // Ha megfelelő ID-t adtunk meg akkor elindítja a lekérdező metódust (QueryXML)
   
     			
     			if(element.getAttribute("id").equals(diakid)) {
@@ -55,7 +71,7 @@ public class DOMQuerryID4JQM {
     	in.close();
 		
 	}
-	
+	// Kiválasztott diák adatainak kiíratása
 	public static void QueryXML(int db,Document doc, Element element) {
 		String id = element.getAttribute("id");
 		
