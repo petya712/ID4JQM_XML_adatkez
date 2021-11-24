@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type = "text/xsl" href = "studentID4JQM.xsl"?>
+
+<class>
+
+    <student id="01">
+        <vezeteknev>"Szabó"</vezeteknev>
+        <keresztnev>"Péter"</keresztnev>
+        <becenev>"Peti"</becenev>
+    </student>
+    
+    <student id="02">
+        <vezeteknev>"Kertesz"</vezeteknev>
+        <keresztnev>"Imre"</keresztnev>
+        <becenev>"Imi"</becenev>
+    </student>
+    
+    <student id="03">
+        <vezeteknev>"Harcos"</vezeteknev>
+        <keresztnev>"Katalin"</keresztnev>
+        <becenev>"Kati"</becenev>
+    </student>
+
+</class>
