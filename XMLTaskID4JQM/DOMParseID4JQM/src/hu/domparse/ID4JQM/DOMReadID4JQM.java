@@ -27,9 +27,24 @@ public class DOMReadID4JQM {
         System.out.println(doc.getElementsByTagName("nev").item(0).getTextContent());
         System.out.println(doc.getElementsByTagName("varos").item(0).getTextContent());
         System.out.println(doc.getElementsByTagName("telefonszam").item(0).getTextContent());
-
-        //  Az összes <osztaly> elem beillesztése egy NodeList-be.
+        
+        
+    
+        //  Az összes <osztaly> elem beillesztése egy NodeList-be és az osztályok és attributumaik kilistázása.
         NodeList nList = doc.getElementsByTagName("osztaly");
+        System.out.println("\nA(z) iskola osztályai:\n");
+        for (int i = 0; i < nList.getLength(); i++) {
+            Node nNode = nList.item(i);
+
+            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                System.out.println("\n------------------------------------------\n");
+                
+
+                Element elem = (Element) nNode;
+                String id = elem.getAttribute("id");
+        ListOsztaly(doc, id);
+            }
+        }
 
         /*
             For ciklussal végig menni a NodeList-en és kiírni a dokumentum összes elemét és attribútumát.
@@ -69,7 +84,39 @@ public class DOMReadID4JQM {
             }
         }
     }
+    
+    //Az osztályokat és attributumait listázó metódus.
+    public static void ListOsztaly (Document doc, String osztalyid) {
+        NodeList nList = doc.getElementsByTagName("osztaly");
 
+        for (int i = 0; i < nList.getLength(); i++) {
+            Node nNode = nList.item(i);
+
+            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                Element elem = (Element) nNode;
+
+                if (elem.getAttribute("id").toString().equals(osztalyid)) {
+                    String id = elem.getAttribute("id");
+                    String iskolaid = elem.getAttribute("iskolaid");
+
+                    Node node1 = elem.getElementsByTagName("nev").item(0);
+                    String osztalynev = node1.getTextContent();
+
+                    Node node2 = elem.getElementsByTagName("evfolyam").item(0);
+                    String evfolyam = node2.getTextContent();
+
+
+                    System.out.println("Osztály ID: " + id);
+                    System.out.println("\tIskola ID: " + iskolaid);
+                    System.out.println("\tOsztály név: " + osztalynev);
+                    System.out.println("\tÉvfolyam: " + evfolyam);
+                    
+                }
+            }
+        }
+    }
+
+  //A diákokat és attributumait listázó metódus.
     public static void ListDiak (Document doc, String osztalyid) {
         NodeList nList = doc.getElementsByTagName("diak");
 
@@ -108,6 +155,7 @@ public class DOMReadID4JQM {
         }
     }
 
+  //A tanárokat és attributumait listázó metódus.
     public static void ListTanar (Document doc, String osztalyid) {
         NodeList nList = doc.getElementsByTagName("tanar");
 
