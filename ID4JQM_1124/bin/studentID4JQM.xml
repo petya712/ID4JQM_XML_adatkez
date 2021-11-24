@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="studentID4JQM_apply.xsl" ?>
+
+
+<class>
+
+	<student id="01">
+		<vezeteknev>Szabo</vezeteknev>
+		<keresztnev>Peter</keresztnev>
+		<kor>24</kor>
+		<becenev>Peti</becenev>
+		<fizetes>50000</fizetes>
+	</student>
+
+	<student id="02">
+		<vezeteknev>Vajas</vezeteknev>
+		<keresztnev>Katalin</keresztnev>
+		<kor>24</kor>
+		<becenev>Kati</becenev>
+		<fizetes>51000</fizetes>
+	</student>
+
+	<student id="03">
+		<vezeteknev>Kovacs</vezeteknev>
+		<keresztnev>Laszlo</keresztnev>
+		<kor>23</kor>
+		<becenev>Laci</becenev>
+		<fizetes>52000</fizetes>
+	</student>
+
+</class>

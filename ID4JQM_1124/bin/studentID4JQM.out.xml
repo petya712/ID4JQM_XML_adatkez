@@ -1,0 +1,55 @@
+<html>
+<body>
+<h2>ID4JQM apply-template</h2>
+
+	
+<p>
+<br>
+  Vezeteknev: <span style="color:#5cff00">Szabo</span>
+</br>
+<br>
+  Keresztnev: <span style="color:#ffa200">Peter</span>
+</br>
+<br>
+  Kor: <span style="color:#00cbff">24</span>
+</br>
+<br>
+  Fizetes: <span style="color:#ff0000">50000</span>
+</br>
+</p>
+
+	
+<p>
+<br>
+  Vezeteknev: <span style="color:#5cff00">Vajas</span>
+</br>
+<br>
+  Keresztnev: <span style="color:#ffa200">Katalin</span>
+</br>
+<br>
+  Kor: <span style="color:#00cbff">24</span>
+</br>
+<br>
+  Fizetes: <span style="color:#ff0000">51000</span>
+</br>
+</p>
+
+	
+<p>
+<br>
+  Vezeteknev: <span style="color:#5cff00">Kovacs</span>
+</br>
+<br>
+  Keresztnev: <span style="color:#ffa200">Laszlo</span>
+</br>
+<br>
+  Kor: <span style="color:#00cbff">23</span>
+</br>
+<br>
+  Fizetes: <span style="color:#ff0000">52000</span>
+</br>
+</p>
+
+
+</body>
+</html>
