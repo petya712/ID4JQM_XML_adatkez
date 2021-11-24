@@ -14,7 +14,7 @@ public class DOMModifyID4JQM {
     public static void main(String[] args) throws SAXException, IOException, ParserConfigurationException, TransformerConfigurationException, TransformerException {
         //  A forrás és cél XML file objektumának létrehozása.
         File xmlFile = new File("XMLID4JQM.xml");
-        File xmlOutputFile = new File("XMLID4JQMResults.xml");
+        //File xmlOutputFile = new File("XMLID4JQMResults.xml");
 
         //  Scanner olvasó példányosítása.
         Scanner in = new Scanner(System.in);
@@ -31,7 +31,19 @@ public class DOMModifyID4JQM {
 
         //  Az <osztaly> tag elemek kiválasztása.
         NodeList nList = doc.getElementsByTagName("osztaly");
-
+        System.out.println("Osztály nevek felülírása:\n");
+        
+     // Jelenlegi osztályok kiiratása.
+        for (int i = 0; i < nList.getLength(); i++) {
+        	Node nNode = nList.item(i);
+        	Element elem = (Element) nNode;
+            String id = elem.getAttribute("id");
+            
+			System.out.println((i+1)+". sorszámú osztály adatai: ");
+			DOMReadID4JQM.ListOsztaly(doc, id);
+			System.out.println("-------------------------------------------");
+		}
+        //Osztály nevének módosítása.
         for (int i = 0; i < nList.getLength(); i++) { 
             //  Az <osztaly> tag (i)-ik eleme.
             Node nNode = nList.item(i);
@@ -48,7 +60,7 @@ public class DOMModifyID4JQM {
             String newname = in.next();
             node1.setTextContent(newname);
         }
-
+        
         //  A Scanner bezárása.
         in.close();
 
@@ -60,7 +72,7 @@ public class DOMModifyID4JQM {
         DOMSource source = new DOMSource(doc);
 
         //  A kiírandó file előkészítése.
-        StreamResult result = new StreamResult(xmlOutputFile);
+        StreamResult result = new StreamResult(new File("XMLID4JQM.xml"));
 
         //  A file kiírása.
         transformer.transform(source, result);
