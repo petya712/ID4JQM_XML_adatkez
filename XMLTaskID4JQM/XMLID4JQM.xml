@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-model href="XMLSchemaID4JQM.xsd" type="application/xml"
+schematypens="http://www.w3.org/2001/XMLSchema"?><iskola id="IS001">
 
-<?xml-model href="XMLSchemaID4JQM.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-
-<iskola id = "IS001">
     <nev>Móra Ferenc Iskola</nev>
     <varos>Miskolc</varos>
     <telefonszam>+362345079</telefonszam>
@@ -54,6 +52,30 @@
                 <hazszam>10</hazszam>
             </cim>
             <fokozat>TAN3</fokozat>
+        </tanar>
+        <tanar id="TAN005" osztalyid="CS104">
+            <vezeteknev>Nehéz</vezeteknev>
+            <keresztnev>Csaba</keresztnev>
+            <szulinap>1973-12-20</szulinap>
+            <cim>
+                <iranyitoszam>3535</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>Nyár</utca>
+                <hazszam>10</hazszam>
+            </cim>
+            <fokozat>TAN3</fokozat>
+        </tanar>
+        <tanar id="TAN006" osztalyid="CS101">
+            <vezeteknev>Varga</vezeteknev>
+            <keresztnev>Károly</keresztnev>
+            <szulinap>1988-03-22</szulinap>
+            <cim>
+                <iranyitoszam>3535</iranyitoszam>
+                <varos>Miskolc</varos>
+                <utca>Virág</utca>
+                <hazszam>1</hazszam>
+            </cim>
+            <fokozat>TAN1</fokozat>
         </tanar>
     </tanarok>
     <diakok>
@@ -299,20 +321,20 @@
         </diak>
     </diakok>
     <osztalyok>
-        <osztaly id = "CS101" iskolaid="IS001">
-            <nev>A</nev>
+        <osztaly id="CS101" iskolaid="IS001">
+            <nev>c</nev>
             <evfolyam>Első</evfolyam>
         </osztaly>
-        <osztaly id = "CS102" iskolaid="IS001">
-            <nev>B</nev>
+        <osztaly id="CS102" iskolaid="IS001">
+            <nev>f</nev>
             <evfolyam>Második</evfolyam>
         </osztaly>
-        <osztaly id = "CS103" iskolaid="IS001">
-            <nev>C</nev>
+        <osztaly id="CS103" iskolaid="IS001">
+            <nev>h</nev>
             <evfolyam>Harmadik</evfolyam>
         </osztaly>
-        <osztaly id = "CS104" iskolaid="IS001">
-            <nev>D</nev>
+        <osztaly id="CS104" iskolaid="IS001">
+            <nev>j</nev>
             <evfolyam>Negyedik</evfolyam>
         </osztaly>
     </osztalyok>
